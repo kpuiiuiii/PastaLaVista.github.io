@@ -1,0 +1,133 @@
+/* Core Styles */
+
+body {
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    font-style:normal;
+    font-weight:300;
+    color:hsl(0,0%,37%);
+    background-color:#f3f3f3;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    
+    border: 0;
+}
+
+.btn {
+    display: block;
+    padding: 45px 45px 45px 45px; 
+    color: hsl(0, 0%, 8%); 
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 0;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+header{
+    background:#151515;
+    color:#ffffff;
+    padding-top: 40px;
+    min-height: 40px;
+}
+
+.reviewList li {
+    text-decoration: none;
+
+}
+
+logo {
+    display: block;
+    float: left;
+    line-height: 1;
+    text-decoration: none;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+
+footer .footerUl {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footerUl li{
+    list-style: none;
+}
+
+
+
+.footerUl a{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px; 
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+    
+}
+
+.footerUl li a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+
+}
+
+.footerUl li a:hover .fa {
+     color: #fff;
+    transform: rotateY(360deg);
+}
+
+.footerUl li a:before{ 
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.footerUl li a:hover:before{
+    top: 0;
+}
+
+.footerUl li:nth-child(1) a::before{
+    background:#3b5999;
+
+}
+.footerUl li:nth-child(2) a::before{
+    background:#55acee;
+}
+.footerUl li:nth-child(3) a::before{
+    background:#dd4b39;
+}
+.footerUl li:nth-child(4) a::before{
+    background:#0077b5;
+}
+.footerUl li:nth-child(5) a::before{
+    background:#e4405f;
+}
