@@ -1,23 +1,121 @@
 /* Core Styles */
-
-body {
+body{
+    padding: 0;
     margin: 0;
-    font-family: "Open Sans",sans-serif;
-    font-style:normal;
-    font-weight:300;
-    color:hsl(0,0%,37%);
-    background-color:#f3f3f3;
 }
 
-img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    height: auto;
-    
-    border: 0;
+
+
+
+a{
+    text-decoration: none;
 }
+
+
+/* header bar*/
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    background: #222;
+
+}
+
+nav ul li a{
+    color: #ddd;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    display: block;
+    line-height: 1;
+
+}
+
+nav ul li{
+    border-bottom: 1px solid #222;
+
+}
+nav div:first-child{
+    background: #222;
+
+}
+
+nav div:first-child h1{
+    line-height: 0;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+nav div:first-child img{
+   
+
+}
+
+nav div:first-child h1, nav ul{
+    padding: 0;
+}
+
+@media only screen and (min-width: 30em){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background: #222;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+    nav div:first-child h1{
+        padding: 0;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section1{
+
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+    
+
+}
+
+
+#section1 .section1BgImage{
+    position: absolute;
+    background: #333 url('https://secureservercdn.net/ip-ac.mwp2.iad2.secureserver.net/98y.09b.godaddywp.com/wp-content/uploads/2018/03/La-Storia-BarUpdated.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -5;
+    opacity: 0.3;
+    
+}
+
+
+
 
 .btn {
     display: block;
@@ -28,13 +126,14 @@ img {
     margin: 0;
     font-size: 32px;
     text-decoration: none;
+    height: 50px;
 }
 
-header{
-    background:#151515;
-    color:#ffffff;
-    padding-top: 40px;
-    min-height: 40px;
+
+
+
+.section1BgImage {
+    
 }
 
 .reviewList li {
@@ -42,42 +141,50 @@ header{
 
 }
 
-logo {
-    display: block;
-    float: left;
-    line-height: 1;
-    text-decoration: none;
-}
 
-footer{
+.footerBg{
     margin: 0;
     padding: 0;
-    background: #262626;
+    background-color: #383838;
+    height: 240px;
 }
 
-footer .footerUl {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.footerContainer{
+    padding: 5px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
 }
 
-.footerUl li{
+
+
+.footerUl {
+    display: block;
+    position: absolute ;
+    align-self: center;
+    box-sizing: border-box;
+    width: 100%
+
+
+    
+}
+
+.footerUl>li{
+    display: inline;
     list-style: none;
 }
 
 
-
 .footerUl a{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: #fff;
     text-align: center;
-    line-height: 80px;
-    font-size: 35px;
+    line-height: 50px;
+    font-size: 30px;
     margin: 0 10px; 
-    display: block;
+    display: inline-block;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -131,3 +238,61 @@ footer .footerUl {
 .footerUl li:nth-child(5) a::before{
     background:#e4405f;
 }
+
+.footerMenu{
+    padding: 5px;
+    
+    display: inline-block;  
+    text-decoration: none;
+
+
+}
+
+.footerMenu{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+    position: absolute;
+    text-align: center;
+    line-height: 3;  
+    
+}
+
+.footerMenu>li{
+    display: inline-block;
+    list-style: none;
+}
+
+.footerMenu a{
+    padding: 5px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;     
+}
+
+
+
+.footerDeveloper{
+    margin: 20px 0;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 133px;  
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color: #000;
+    list-style: none;
+  
+}
+
+.footerDeveloper a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
