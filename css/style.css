@@ -1,303 +1,279 @@
-/* Core Styles */
+
+/* general rules */
+
 body{
-    padding: 0;
-    margin: 0;
+  min-width: 450px;
 }
 
-img{
-    width: 100%;
-    max-width: 100%;
+h1, h2, h3, h4 {
+font-family: 'Playfair Display', serif;
 }
 
-
-
-
-a{
-    text-decoration: none;
+p{
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-/* header bar*/
-
-nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 0;
-    background: #222;
-
-}
-
-nav ul li a{
-    color: #ddd;
-    text-decoration: none;
-    padding: 0.8rem 1rem;
-    display: block;
-    line-height: 1;
-
-}
-
-nav ul li{
-    border-bottom: 1px solid #222;
-
-}
-nav div:first-child{
-    background: #222;
-
-}
-
-nav div:first-child h1{
-    line-height: 0;
-    padding: 1rem 1rem;
-    text-align: center;
-}
-
-nav div:first-child img{
-   
-
-}
-
-nav div:first-child h1, nav ul{
-    padding: 0;
-}
-
-@media only screen and (min-width: 30em){
-    nav{
-        display: flex;
-        justify-content: space-between;
-        background: #222;
-    }
-    nav ul{
-        display: flex;
-        align-items: center;
-    }
-    nav div:first-child h1{
-        padding: 0;
-    
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#section1{
-
-    min-height: 450px;
-    color: #fff;
-    text-align: center;
-    
-
-}
-
-
-#section1 .section1BgImage{
-    position: absolute;
-    background: #333 url('https://secureservercdn.net/ip-ac.mwp2.iad2.secureserver.net/98y.09b.godaddywp.com/wp-content/uploads/2018/03/La-Storia-BarUpdated.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -5;
-    opacity: 0.3;
-    
-}
-
-
-
-
-.btn {
-    display: block;
-    padding: 45px 45px 45px 45px; 
-    color: hsl(0, 0%, 8%); 
-    background-color: hsl(0, 0%, 100%);
-    text-align: center;
-    margin: 0;
-    font-size: 32px;
-    text-decoration: none;
-    height: 50px;
-}
-
-
-
-
-.section1BgImage {
-    
-}
-
-.reviewList li {
-    text-decoration: none;
-
-}
-
-
-.footerBg{
-    margin: 0;
-    padding: 0;
-    background-color: #383838;
-    height: 240px;
-}
-
-.footerContainer{
-    padding: 5px;
-    margin: 0px;
-    display: inline-block;
-    text-align: center;
-    align-self: center;
-}
-
-
-
-.footerUl {
-    display: block;
-    position: absolute ;
-    align-self: center;
-    box-sizing: border-box;
-    width: 100%
-
-
-    
-}
-
-.footerUl>li{
-    display: inline;
-    list-style: none;
-}
-
-
-.footerUl a{
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-    margin: 0 10px; 
-    display: inline-block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fff;
-    z-index: 1;
-    
-}
-
-.footerUl li a .fa{
-    position: relative;
-    color: #262626;
-    transition: .5s;
-    z-index: 3;
-
-}
-
-.footerUl li a:hover .fa {
-     color: #fff;
-    transform: rotateY(360deg);
-}
-
-.footerUl li a:before{ 
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: .5s;
-    z-index: 2;
-}
-
-.footerUl li a:hover:before{
-    top: 0;
-}
-
-.footerUl li:nth-child(1) a::before{
-    background:#3b5999;
-
-}
-.footerUl li:nth-child(2) a::before{
-    background:#55acee;
-}
-.footerUl li:nth-child(3) a::before{
-    background:#dd4b39;
-}
-.footerUl li:nth-child(4) a::before{
-    background:#0077b5;
-}
-.footerUl li:nth-child(5) a::before{
-    background:#e4405f;
-}
-
-.footerMenu{
-    padding: 5px;
-    
-    display: inline-block;  
-    text-decoration: none;
-
-
-}
-
-.footerMenu{
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    line-height: 30px;
-    font-size: 20px;
-    margin-top: 70px;
-    position: absolute;
-    text-align: center;
-    line-height: 3;  
-    
-}
-
-.footerMenu>li{
-    display: inline-block;
-    list-style: none;
-}
-
-.footerMenu a{
-    padding: 5px;
-    color:#fff;
-    text-decoration: none;
-    text-align: center;     
-}
-
-
-
-.footerDeveloper{
-    margin: 20px 0;
-    letter-spacing: 1px;
-    display: inline-block;
-    margin-top: 133px;  
-    position: absolute;
-    width: 100%;
-    height: auto;
-    color: #000;
-    list-style: none;
+img {
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+ 
   
 }
 
-.footerDeveloper a {
-    color: #fff;
-    text-decoration: none;
-    
+nav {
+  background-color: #222;
+}
+
+.btnContainer {
+  display: block;
+  color: hsl(0, 0%, 8%);
+  padding: 1% 1% 3% 1%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 32px;
+  text-decoration: none;
+  height: 150px;
+  max-height: 300px;
+}
+
+/* section 2 */
+
+#section2 .row {
+  margin-top: -15px;
+  background-color: #111;
+  color: #fafafa;
+}
+
+#section2 .card-panel {
+  background-color: #111;
+}
+
+.googleMap {
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+#section2 .container {
+  background: #111;
+  height: 700px;
+}
+
+#section2 {
+  background: #111;
+  width: 100%;
+}
+h2 {
+  margin-top: 0px;
+}
+
+.waves-effect .waves-light .btn-large {
+  background-color: #444;
+}
+
+/* end section2 */
+
+/* section 3 */
+#section3 {
+  height: 700px;
+  margin-top: -35px;
+  
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  background-image: url(/img/AppleWalnut.jpg);
+  padding: calc(2% + 25px) calc(2% + 25px);
+  width: 100%;
+  box-sizing: content-box;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fafafa;
+  overflow: hidden;
+}
+
+#section3 h2{
+  font-size: 80px;
+}
+
+#section3 h6{
+  font-size: 20px;
+}
+
+#section3 p{
+  font-size: 20px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* end section 3 */
+
+/* section 4 */
+.section4 {
+	clear: both;
+	padding: 0px;
+  margin: 0px;
+  background: #f0f0f0;
+  
 }
 
 
+.col {
+	display: block;
+	float:left;
+  margin-bottom: -5px;
+  
+}
+.col:first-child { margin-left: 0; }
+
+
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1;  }
+
+
+.span_2_of_2 {
+  width: 100%;
+  height: 100%;
+  
+}
+.span_1_of_2 {
+  width: 50%;
+  height: 100%;
+  
+}
+
+.asd{
+  text-align: center;
+  padding-top: 8%;
+  color: #6a6a6a;
+}
+
+/* end section 4 */
+
+/* section 5 */
+#section5{
+  margin-top: 0px;
+  margin-bottom: 10%;
+  margin-left: 18%;
+  margin-right: 18%;
+  background: #fff;
+}
+
+
+
+.rig-text-container{
+  column-count: 2 100px;
+  column-width: 20em;
+  columns: 2 300px;
+  line-height: 1.8;
+  padding: 5em;
+  
+  background-color: #e6e6e6;
+  line-height: 1.8;
+  margin-top: 0;
+  
+
+}
+
+.rig-text-container h6{
+  color: #fff;
+}
+
+/* end section 5 */
+/* start section 6 reviews */
+#reviews {
+  background: #262626;
+  height: 190vh;
+  margin: 0px auto;
+  padding: 0px;
+  
+}
+
+ #reviews .white-line{
+  height: 15%;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}  
+#reviews .outside-border{
+
+  padding: 1% 30px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: hsl(0, 0%, 8%);
+  box-shadow: inset 0 0.5em 3em rgba(0, 0, 0, 0.78), 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+  background-color: hsl(0, 0%, 8%);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  text-align: center;
+  padding-top: 0;
+  height: 170vh;
+  color: #e6e6e6
+  
+}
+
+ #reviews .card{
+  margin: 5% 3% 3%  4%;
+  background-color:transparent;
+  color: #6a6a6a;
+  font-size: 1rem;
+  border: 0px solid;
+  box-shadow: none; 
+  padding: 0;
+  
+
+}
+  
+#reviews .card-content{
+  padding:  3%;
+  margin-top: 0;
+  text-align: left;
+   
+}
+
+#reviews .card img{
+  border-radius: 50%;
+
+}
+
+#reviews .card-content h5{
+ color: red;
+}
+/* end section reviews */
+
+/* footer */
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media content */
+@media only screen and (max-width: 1150px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
 
