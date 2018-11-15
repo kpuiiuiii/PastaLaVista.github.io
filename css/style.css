@@ -74,11 +74,11 @@ h2 {
 
 /* section 3 */
 #section3 {
-  height: 700hv;
+  height: 700px;
+  margin-top: -35px;
   
-  
-  
-  background: #fff;
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  background-image: url(https://secureservercdn.net/ip-ac.mwp2.iad2.secureserver.net/98y.09b.godaddywp.com/wp-content/uploads/2018/03/Apple-Walnut-Salad-e1522176620563.jpg);
   padding: calc(2% + 25px) calc(2% + 25px);
   width: 100%;
   box-sizing: content-box;
