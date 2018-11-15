@@ -83,7 +83,7 @@ h2 {
   width: 100%;
   box-sizing: content-box;
   box-sizing: border-box;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fafafa;
