@@ -38,7 +38,7 @@ nav {
 /* section 2 */
 
 #section2 .row {
-  
+  margin-top: -15px;
   background-color: #111;
   color: #fafafa;
 }
@@ -78,7 +78,7 @@ h2 {
   margin-top: -35px;
   
   box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
-  background-image: url(https://secureservercdn.net/ip-ac.mwp2.iad2.secureserver.net/98y.09b.godaddywp.com/wp-content/uploads/2018/03/Apple-Walnut-Salad-e1522176620563.jpg);
+  background-image: url(/img/AppleWalnut.jpg);
   padding: calc(2% + 25px) calc(2% + 25px);
   width: 100%;
   box-sizing: content-box;
