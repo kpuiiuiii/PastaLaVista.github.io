@@ -1,7 +1,7 @@
 
 /* general rules */
 body{
-  min-width: 400px;
+  min-width: 350px;
 }
 
 h1, h2, h3, h4 {
@@ -86,10 +86,11 @@ h2 {
   
   box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
   
-  padding: calc(2% + 25px) calc(2% + 25px);
+  padding: calc(4% + 25px) calc(2% + 25px);
   width: 100%;
 }
 #section3 .row {
+  
 
   box-sizing: content-box;
   box-sizing: border-box;
@@ -100,8 +101,8 @@ h2 {
   overflow: hidden;
 } 
 
-#section3 h2{
-  font-size: 80px;
+#section3 h3{
+  font-size: 60px;
 }
 
 #section3 h6{
@@ -109,7 +110,7 @@ h2 {
 }
 
 #section3 p{
-  font-size: 20px;
+  font-size: 15px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -234,7 +235,7 @@ h2 {
   padding-top: 0;
   height: 170vh;
   color: #e6e6e6;
-  overflow:hidden;
+  
 }
 
  #reviews .card{
@@ -301,9 +302,14 @@ h2 {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 350px) {
 	body{
-    min-width: 400px;
+    min-width: 350px;
   }
 }
 
+@media only screen and (max-width: 340px) {
+	.outside-border{
+    min-height: 190vh;
+  }
+}
