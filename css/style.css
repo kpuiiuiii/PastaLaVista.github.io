@@ -1,9 +1,6 @@
 
 /* general rules */
 
-body{
-  min-width: 450px;
-}
 
 h1, h2, h3, h4 {
 font-family: 'Playfair Display', serif;
@@ -12,6 +9,7 @@ font-family: 'Playfair Display', serif;
 p{
   font-family: 'Open Sans', sans-serif;
 }
+
 
 img {
   box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
@@ -72,12 +70,15 @@ h2 {
 
 /* end section2 */
 
+
+
+
 /* section 3 */
-#section3 {
+#section3 .row {
   height: 700px;
-  margin-top: -35px;
+  margin-top: -55px;
   
-  
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
   background-image: url(/img/AppleWalnut.jpg);
   padding: calc(2% + 25px) calc(2% + 25px);
   width: 100%;
@@ -108,11 +109,14 @@ h2 {
 
 /* end section 3 */
 
+
+
+
 /* section 4 */
 .section4 {
 	clear: both;
 	padding: 0px;
-  margin: 0px;
+  margin-top: -35px;
   background: #f0f0f0;
   
 }
@@ -153,6 +157,9 @@ h2 {
 
 /* end section 4 */
 
+
+
+
 /* section 5 */
 #section5{
   margin-top: 0px;
@@ -183,6 +190,10 @@ h2 {
 }
 
 /* end section 5 */
+
+
+
+
 /* start section 6 reviews */
 #reviews {
   background: #262626;
@@ -244,6 +255,9 @@ h2 {
  color: red;
 }
 /* end section reviews */
+
+
+
 
 /* footer */
 .section-follow .fa-4x {
