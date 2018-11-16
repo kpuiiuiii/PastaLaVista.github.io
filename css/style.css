@@ -1,6 +1,8 @@
 
 /* general rules */
-
+body{
+  min-width: 400px;
+}
 
 h1, h2, h3, h4 {
 font-family: 'Playfair Display', serif;
@@ -207,6 +209,7 @@ h2 {
   height: 190vh;
   margin: 0px auto;
   padding: 0px;
+  overflow:hidden;
   
 }
 
@@ -230,8 +233,8 @@ h2 {
   text-align: center;
   padding-top: 0;
   height: 170vh;
-  color: #e6e6e6
-  
+  color: #e6e6e6;
+  overflow:hidden;
 }
 
  #reviews .card{
