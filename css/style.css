@@ -37,7 +37,7 @@ nav {
 
 }
 #reserveBtn{
-  height: 14vh;
+  height: 100px;
   
 }
 
@@ -53,7 +53,7 @@ nav {
 
 }
 #reserveBtn2{
-  height: 14vh;
+  height: 100px;
   
   
 }
@@ -231,7 +231,7 @@ h2 {
 /* start section 6 reviews */
 #reviews {
   background: #262626;
-  height: 220vh;
+  height: 1500px;
   margin: 0px auto;
   padding: 0px;
   
@@ -257,7 +257,7 @@ h2 {
   margin-bottom: 10%;
   text-align: center;
   padding-top: 0;
-  height: 215vh;
+  height: 1400px;
   color: #e6e6e6;
   
 }
