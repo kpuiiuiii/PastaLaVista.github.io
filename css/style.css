@@ -29,11 +29,33 @@ nav {
 .btnContainer {
   display: block;
   color: hsl(0, 0%, 8%);
-  padding: 1.5% 1% 3% 1%;
+  padding-top: 0px;
   background-color: #fff;
   text-align: center;
   font-size: 28px;
   text-decoration: none;
+
+}
+#reserveBtn{
+  height: 14vh;
+  
+}
+
+.btnContainer2 {
+  display: block;
+  color: hsl(0, 0%, 8%);
+  padding-top: 0px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 28px;
+  
+  text-decoration: none;
+
+}
+#reserveBtn2{
+  height: 14vh;
+  
+  
 }
 
 
@@ -81,7 +103,7 @@ h2 {
 
 #section3{
   background: url(https://secureservercdn.net/ip-ac.mwp2.iad2.secureserver.net/98y.09b.godaddywp.com/wp-content/uploads/2018/03/Apple-Walnut-Salad-e1522176620563.jpg);
-  height: 100vh;
+  height: 500px;
   margin-top: -35px;
   background-size: cover;
   background-position: center;
@@ -209,7 +231,7 @@ h2 {
 /* start section 6 reviews */
 #reviews {
   background: #262626;
-  height: 190vh;
+  height: 220vh;
   margin: 0px auto;
   padding: 0px;
   
@@ -217,13 +239,13 @@ h2 {
 }
 
  #reviews .white-line{
-  height: 15%;
+  height: 10vh;
   background: #fff;
   margin: 0;
   padding: 0;
 }  
 #reviews .outside-border{
-
+  
   padding: 1%;
   border-style: solid;
   border-width: 15px;
@@ -261,7 +283,7 @@ h2 {
 
 #reviews .card img{
   border-radius: 50%;
-  min-inline-size: 50%;
+  min-inline-size: 40%;
 }
 
 #reviews .card-content h5{
@@ -275,6 +297,7 @@ h2 {
 /* footer */
 .section-follow .fa-4x {
   margin: 5px 10px;
+  height: 5vh;
 }
 
 
@@ -310,10 +333,10 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 360px) {
+/* @media only screen and (max-width: 360px) {
 	.outside-border{
-    min-height: 230vh;
+    min-height: 210vh;
   }
 
   .
-}
+} */
