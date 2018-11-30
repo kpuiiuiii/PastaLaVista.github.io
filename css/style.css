@@ -1,68 +1,70 @@
-
 /* general rules */
-body{
+body {
   min-width: 360px;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4 {
-font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
 }
 
-p{
-  font-family: 'Open Sans', sans-serif;
+p {
+  font-family: "Open Sans", sans-serif;
 }
-
 
 img {
   box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
- 
-  
 }
 
 nav {
   background-color: #222;
 }
-
-.brand-logo{
+.red-hrline hr {
+  border-color: red;
+  max-width: 300px;
+}
+.brand-logo {
   font-size: 10px;
 }
 .btnContainer {
-  display: block;
-  color: hsl(0, 0%, 8%);
-  padding-top: 0px;
-  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  color: #111;
+}
+
+.btnContainer a {
+  color: #111;
+}
+
+.btnContainer a:hover {
+  color: #fff;
+}
+#reserveBtn {
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+#reserveBtn .btnContainer {
+  height: 80px;
   text-align: center;
-  font-size: 28px;
-  text-decoration: none;
-
-}
-#reserveBtn{
-  height: 100px;
-  
+  transition: all 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  font-size: 20px;
+  padding: 1.3% 5% 1px 5%;
 }
 
-.btnContainer2 {
-  display: block;
-  color: hsl(0, 0%, 8%);
-  padding-top: 0px;
-  background-color: #fff;
-  text-align: center;
-  font-size: 28px;
-  
-  text-decoration: none;
-
+#reserveBtn .btnContainer:hover {
+  background: #777;
+  color: #fff;
 }
-#reserveBtn2{
-  height: 100px;
-  
-  
-}
-
 
 /* section 2 */
 
 #section2 .row {
-  margin-top: -15px;
+  margin: 0;
   background-color: #111;
   color: #fafafa;
 }
@@ -79,15 +81,20 @@ nav {
 
 #section2 .container {
   background: #111;
-  height: 700px;
 }
 
 #section2 {
   background: #111;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
-h2 {
+#section2 h2 {
   margin-top: 0px;
+}
+#section2 h4 {
+  margin-top: 0px;
+  font-size: 26px;
 }
 
 .waves-effect .waves-light .btn-large {
@@ -96,44 +103,37 @@ h2 {
 
 /* end section2 */
 
-
-
-
 /* section 3 */
 
-#section3{
+#section3 {
   background: url(https://secureservercdn.net/ip-ac.mwp2.iad2.secureserver.net/98y.09b.godaddywp.com/wp-content/uploads/2018/03/Apple-Walnut-Salad-e1522176620563.jpg);
-  height: 500px;
-  margin-top: -35px;
+  height: 750px;
+  margin-top: 0px;
   background-size: cover;
   background-position: center;
-  
+
   box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
-  
+
   padding: calc(4% + 25px) calc(2% + 25px);
   width: 100%;
 }
 #section3 .row {
-  
-
   box-sizing: content-box;
   box-sizing: border-box;
-  
-  
+
   background-repeat: no-repeat;
   color: #fafafa;
-  
-} 
+}
 
-#section3 h3{
+#section3 h3 {
   font-size: 60px;
 }
 
-#section3 h6{
+#section3 h6 {
   font-size: 20px;
 }
 
-#section3 p{
+#section3 p {
   font-size: 15px;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -143,47 +143,46 @@ h2 {
 
 /* end section 3 */
 
-
-
-
 /* section 4 */
 .section4 {
-	clear: both;
-	padding: 0px;
+  clear: both;
+  padding: 0px;
   margin-top: -35px;
   background: #f0f0f0;
-  
 }
-
 
 .col {
-	display: block;
-	float:left;
+  padding: 0;
+  display: block;
+  float: left;
   margin-bottom: -5px;
-  
 }
-.col:first-child { margin-left: 0; }
-
-
+.col:first-child {
+  margin-left: 0;
+}
 
 .group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1;  }
-
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
 
 .span_2_of_2 {
   width: 100%;
   height: 100%;
-  
 }
 .span_1_of_2 {
   width: 50%;
   height: 100%;
-  
 }
 
-.asd{
+.asd {
   text-align: center;
   padding-top: 8%;
   color: #6a6a6a;
@@ -191,11 +190,8 @@ h2 {
 
 /* end section 4 */
 
-
-
-
 /* section 5 */
-#section5{
+#section5 {
   margin-top: 0px;
   margin-bottom: 10%;
   margin-left: 18%;
@@ -203,54 +199,49 @@ h2 {
   background: #fff;
 }
 
-
-
-.rig-text-container{
+.rig-text-container {
   column-count: 2 100px;
   column-width: 20em;
   columns: 2 300px;
   line-height: 1.8;
   padding: 2em;
-  
+
   background-color: #e6e6e6;
   line-height: 1.8;
   margin-top: 0;
-  
-
 }
 
-.rig-text-container h6{
+.rig-text-container p {
+  padding: 1.5em;
+  padding-bottom: 0;
+}
+.rig-text-container h6 {
   color: #fff;
 }
 
 /* end section 5 */
 
-
-
-
 /* start section 6 reviews */
 #reviews {
   background: #262626;
   height: 1500px;
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
-  
-  
 }
 
- #reviews .white-line{
+#reviews .white-line {
   height: 10vh;
   background: #fff;
   margin: 0;
   padding: 0;
-}  
-#reviews .outside-border{
-  
+}
+#reviews .outside-border {
   padding: 1%;
   border-style: solid;
   border-width: 15px;
   border-color: hsl(0, 0%, 8%);
-  box-shadow: inset 0 0.5em 3em rgba(0, 0, 0, 0.78), 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0.5em 3em rgba(0, 0, 0, 0.78),
+    0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   background-color: hsl(0, 0%, 8%);
   margin-left: 15%;
   margin-right: 15%;
@@ -259,40 +250,401 @@ h2 {
   padding-top: 0;
   height: 1400px;
   color: #e6e6e6;
-  
 }
 
- #reviews .card{
-  margin: 5% 3% 3%  4%;
-  background-color:transparent;
+#reviews .card {
+  margin: 5% 3% 3% 4%;
+  background-color: transparent;
   color: #6a6a6a;
   font-size: 1rem;
   border: 0px solid;
-  box-shadow: none; 
+  box-shadow: none;
   padding: 0;
-  
-
 }
-  
-#reviews .card-content{
-  padding:  3%;
+
+#reviews .card-content {
+  padding: 3%;
   margin-top: 0;
   text-align: left;
-   
 }
 
-#reviews .card img{
+#reviews .card img {
   border-radius: 50%;
   min-inline-size: 40%;
 }
 
-#reviews .card-content h5{
- color: red;
+#reviews .card-content h5 {
+  color: red;
 }
 /* end section reviews */
 
+/* story showcase section */
+#section-story-showcase {
+  background: url(../img/slider3.jpg);
+  height: 600px;
+  margin-top: 0px;
+  background-size: cover;
+  background-position: center;
 
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
 
+  padding: calc(5% + 25px) calc(9% + 25px);
+  width: 100%;
+}
+#section-story-showcase .row {
+  box-sizing: content-box;
+  box-sizing: border-box;
+
+  background-repeat: no-repeat;
+  color: #fafafa;
+}
+
+/*end story showcase section */
+
+/* about section */
+#about-section {
+  margin: 0;
+  padding: 0;
+}
+
+#about-section .img {
+  margin-top: 10%;
+}
+
+#about-section .main-container {
+  margin: 0;
+  padding: 2% 15% 2% 15%;
+}
+
+#about-section .row {
+  padding: 0;
+  padding-bottom: 1%;
+  background: #fff;
+}
+
+#about-section .image-container {
+  background-image: url(../img/OliveOilCake.jpg);
+  min-width: 100%;
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  background-size: contain;
+
+  max-width: 100%;
+
+  vertical-align: middle;
+  border: 0;
+}
+
+#about-section .text-container {
+  text-align: left;
+
+  font-size: 16px;
+  line-height: 1.4;
+
+  color: rgba(0, 0, 0, 1);
+}
+
+#part2 h3 {
+  text-align: center;
+  padding: 0% 3% 0% 3%;
+  margin: 0% 3% 0% 3%;
+}
+
+#part2 .image-container-1 {
+  background-image: url(../img/SidebarPastaOne.jpg);
+  min-width: 100%;
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+
+  background-size: contain;
+
+  max-width: 100%;
+
+  vertical-align: middle;
+  border: 0;
+}
+
+#part2 .text-box {
+  text-align: left;
+
+  font-size: 16px;
+  line-height: 1.4;
+
+  color: rgba(0, 0, 0, 1);
+}
+
+#part2 .image-container-2 {
+  background-image: url(../img/SidebarPastaTwo.jpg);
+  min-width: 100%;
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  max-width: 100%;
+
+  vertical-align: middle;
+  border: 0;
+}
+
+#part2 {
+  margin: 0;
+  padding: 2% 15% 2% 15%;
+}
+
+/* end about section */
+
+/* diner menu section */
+#menu-showcase {
+  background: url(../img/slider2.jpg);
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  height: 450px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  width: 100%;
+  color: #fafafa;
+}
+
+#menu-showcase h1 {
+  margin-top: 15vh;
+}
+
+#section-menu {
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+#section-menu .row {
+  padding: 1% 15% 1% 15%;
+}
+
+#section-menu div {
+  margin: 0px;
+  padding: 1px;
+}
+
+#cocktails-showcase {
+  background: url(../img/slider1.jpg);
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  height: 450px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+#cocktails-showcase h1 {
+  margin-top: 15vh;
+}
+
+#cocktails-menu .row {
+  padding: 1% 15% 1% 15%;
+}
+
+#cocktails-menu div {
+  margin: 0px;
+  padding: 1px;
+}
+
+/* dessert section showcase */
+#dessert-showcase {
+  background: url(../img/OliveOilCake.jpg);
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  height: 450px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  width: 100%;
+  color: #fafafa;
+}
+
+#dessert-showcase h1 {
+  margin-top: 15vh;
+}
+
+#dessert-menu .row {
+  padding: 1% 15% 1% 15%;
+}
+
+#dessert-menu div {
+  margin: 0px;
+  padding: 1px;
+}
+
+/* events section */
+
+#events-showcase {
+  background: url(../img/slider3.jpg);
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  height: 450px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 8%;
+  width: 100%;
+  color: #fafafa;
+}
+#events-description {
+  background-color: #fff;
+  padding: 2% 10% 2% 10%;
+}
+
+#events-description .right-container {
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 10px 15px;
+}
+
+.right-container p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.right-container a {
+  width: 100%;
+}
+
+.right-container img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+.tabContainer {
+  width: 100%;
+  border-style: solid;
+  border-color: #6a6a6a;
+  background-color: #fafafa;
+}
+.tabContainer .buttonContainer {
+  height: 9vh;
+  box-sizing: border-box;
+}
+.tabContainer .buttonContainer button {
+  width: 33.33333%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: #eee;
+}
+.tabContainer .buttonContainer button:hover {
+  background-color: #d7d4d4;
+}
+.tabContainer .tabPanel {
+  height: 85%;
+  background-color: gray;
+  color: #222;
+  text-align: center;
+  padding-top: 105px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 22px;
+  display: none;
+  padding: 50px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.tabContainer .tabPanel img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+/* events section END */
+
+/* contact section */
+#contact-showcase {
+  background: url(../img/RigattoniCrafted.jpg);
+  box-shadow: inset 0px 0px 1111px 1111px rgba(0, 0, 0, 0.7);
+  height: 550px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 8%;
+  width: 100%;
+  color: #fafafa;
+}
+
+#contact-description {
+  padding: 0;
+  margin: 0;
+}
+#contact-description .left-container,
+.right-container {
+  padding: 30px 30px;
+}
+
+#contact-description .right-container,
+.left-container a {
+  width: 100%;
+}
+
+#contact-description .right-container {
+  font-size: 22px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a51e1e;
+}
+
+#contact-description {
+  background-color: #f2f2f2;
+  padding: 0px;
+}
+
+#contact-description .map-container,
+.row {
+  padding: 20px 7%;
+}
+
+#contact-description .right-container {
+  margin-top: -52px;
+}
+
+/* end  contact section */
 
 /* footer */
 .section-follow .fa-4x {
@@ -300,35 +652,16 @@ h2 {
   height: 5vh;
 }
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media content */
 @media only screen and (max-width: 1150px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+  .span_2_of_2,
+  .span_1_of_2 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 360px) {
-	body{
+  body {
     min-width: 360px;
   }
 }
